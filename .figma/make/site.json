@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a professional landing page designed to attract and inform visitors, enhancing brand presence and user engagement effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
