@@ -90,7 +90,7 @@ export default function Footer() {
                 <img src={candidLogo} alt="Candid Leaders" style={{ height: "46px", width: "auto", display: "block" }}/>
               </div>
             </div>
-            <p className="text-xs leading-relaxed mb-5" style={{ color: "#163A7A", opacity: 0.75 }}>
+            <p className="text-[15px] leading-relaxed mb-5" style={{ color: "#163A7A", opacity: 0.75 }}>
               Performance marketing intelligence for the modern growth team.
             </p>
             {/* Newsletter input and subscribe button stacked vertically */}
@@ -98,7 +98,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Your email"
-                className="w-full px-3.5 py-2.5 rounded-xl text-xs outline-none min-w-0 placeholder-[#0B1F4A]/50"
+                className="w-full px-3.5 py-2.5 rounded-xl text-sm outline-none min-w-0 placeholder-[#0B1F4A]/50"
                 style={{
                   background: "rgba(255, 255, 255, 0.85)",
                   backdropFilter: "blur(8px)",
@@ -121,7 +121,7 @@ export default function Footer() {
                 onMouseLeave={() => setInputHovered(false)}
               />
               <button
-                className="w-full px-4 py-2.5 rounded-xl text-xs font-bold inline-flex items-center justify-center gap-2"
+                className="w-full px-4 py-2.5 rounded-xl text-sm font-bold inline-flex items-center justify-center gap-2"
                 style={{
                   background: "linear-gradient(135deg, #0B1F4A 0%, #163A7A 100%)",
                   color: "white",
@@ -165,13 +165,13 @@ export default function Footer() {
           {/* Link columns */}
           {Object.entries(footerLinks).map(([cat, links]) => (
             <div key={cat}>
-              <div className="text-xs font-semibold mb-4 uppercase tracking-wider" style={{ color: "#0B1F4A" }}>{cat}</div>
+              <div className="text-sm font-semibold mb-4 uppercase tracking-wider" style={{ color: "#0B1F4A" }}>{cat}</div>
               <ul className="space-y-2.5">
                 {links.map(l => (
                   <li key={l}>
                     <a
                       href="#"
-                      className="footer-link text-xs"
+                      className="footer-link text-sm"
                       style={{
                         color: "rgba(22, 58, 122, 0.7)",
                         transition: `color 250ms ${E}`,
@@ -192,7 +192,7 @@ export default function Footer() {
           className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
           style={{ borderTop: "1px solid #E7EBF5" }}
         >
-          <p className="text-xs" style={{ color: "#163A7A", opacity: 0.7, fontWeight: 500 }}>© 2026 Candid Leaders, Inc. All rights reserved.</p>
+          <p className="text-sm" style={{ color: "#163A7A", opacity: 0.7, fontWeight: 500 }}>© 2026 Candid Leaders, Inc. All rights reserved.</p>
           <div className="flex items-center gap-3">
             {[
               {

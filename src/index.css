@@ -807,3 +807,28 @@ body {
   transform: perspective(500px) rotateX(55deg) scale(1.5);
   animation: gridMove 15s linear infinite;
 }
+
+/* ── Footer Font Size sm ───────────────────────── */
+.footer-link,
+footer a,
+footer p,
+footer input,
+footer button {
+  font-size: 0.875rem; /* text-sm */
+}
+
+footer p.subtext,
+footer p.footer-subtext {
+  font-size: 15px !important;
+}
+
+/* ── Signup Forms & Subtexts Font Size 15px ──────── */
+.signup-form input,
+.signup-form select,
+.signup-form textarea,
+.signup-form label,
+.signup-step-item,
+.signup-subtext,
+.subtext-15px {
+  font-size: 15px !important;
+}

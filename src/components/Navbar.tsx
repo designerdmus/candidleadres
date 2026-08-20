@@ -163,7 +163,7 @@ export default function Navbar({
             src={candidLogo}
             alt="CandidLeaders"
             style={{
-              height: "48px", width: "auto", display: "block",
+              height: "60px", width: "auto", display: "block",
             }}
           />
         </div>

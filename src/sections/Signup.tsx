@@ -503,14 +503,14 @@ export default function Signup({ onNavigateLanding }: SignupProps) {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start signup-form">
             {/* Left Column Steps List */}
             <div className="lg:col-span-4 flex flex-col justify-between space-y-6">
               <div>
                 <h2 className="text-2xl font-extrabold text-slate-900 mb-2 leading-snug">
                   Register as <span className="text-[#2563EB]">{mode === "publisher" ? "Publisher" : "Advertiser"}</span>
                 </h2>
-                <p className="text-xs text-slate-600 mb-6 leading-relaxed">
+                <p className="text-[15px] text-slate-600 mb-6 leading-relaxed signup-subtext">
                   {mode === "publisher"
                     ? "Complete our 8-step publisher application to get instant access to top-paying affiliate campaigns."
                     : "Complete our 8-step advertiser registration to launch campaigns and recruit top-performing publishers."}
@@ -552,7 +552,7 @@ export default function Signup({ onNavigateLanding }: SignupProps) {
                           {isDone ? "✓" : stepNum}
                         </div>
                         <span
-                          className={`text-xs font-bold ${
+                          className={`text-[15px] font-bold signup-step-item ${
                             isCurrent ? "text-[#2563EB]" : isDone ? "text-slate-800" : "text-slate-400"
                           }`}
                         >
@@ -568,16 +568,16 @@ export default function Signup({ onNavigateLanding }: SignupProps) {
                 <div className="w-9 h-9 rounded-xl bg-[#2563EB] text-white flex items-center justify-center font-bold text-sm">
                   🛡️
                 </div>
-                <div className="text-xs">
+                <div className="text-[15px]">
                   <div className="font-extrabold text-slate-900">Enterprise Security</div>
-                  <div className="text-slate-500 font-medium">All accounts verified and monitored for brand safety</div>
+                  <div className="text-slate-500 font-medium text-[15px]">All accounts verified and monitored for brand safety</div>
                 </div>
               </div>
             </div>
 
             {/* Right Column: Multi-Step Card */}
             <div className="lg:col-span-8">
-              <div ref={formCardRef} className="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200/80 shadow-[0_20px_60px_rgba(0,10,35,0.06)] relative">
+              <div ref={formCardRef} className="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200/80 shadow-[0_20px_60px_rgba(0,10,35,0.06)] relative signup-form">
                 
                 {/* ── COMPLETION SUMMARY SCREEN ── */}
                 {completed ? (
