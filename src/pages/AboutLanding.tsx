@@ -84,7 +84,7 @@ function HeroSection() {
               <motion.div
                 whileHover={{ y: -4 }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
-                className="relative rounded-xl p-4.5 sm:p-5 flex flex-col items-start gap-2.5 border overflow-hidden cursor-pointer group"
+                className="relative rounded-2xl p-6 sm:p-7 flex flex-col items-start border overflow-hidden cursor-pointer group"
                 style={{
                   background: "linear-gradient(145deg, rgba(12, 28, 62, 0.65) 0%, rgba(6, 16, 38, 0.8) 100%)",
                   borderColor: "rgba(56, 189, 248, 0.22)",
@@ -101,7 +101,7 @@ function HeroSection() {
 
                 {/* Dark Glass Icon Square */}
                 <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center relative transition-all duration-300 group-hover:border-[#2DD4BF]"
+                  className="w-10 h-10 rounded-xl flex items-center justify-center relative mb-4 transition-all duration-300 group-hover:border-[#2DD4BF]"
                   style={{
                     background: "rgba(7, 18, 44, 0.85)",
                     border: "1px solid rgba(255, 255, 255, 0.25)",
@@ -116,11 +116,12 @@ function HeroSection() {
                 </div>
 
                 <div
+                  className="mb-2.5"
                   style={{
                     fontFamily: FONT_INTER,
                     fontSize: 16,
                     fontWeight: 800,
-                    letterSpacing: "0.12em",
+                    letterSpacing: "0.08em",
                     textTransform: "uppercase",
                     color: "#FFFFFF",
                   }}
@@ -133,7 +134,7 @@ function HeroSection() {
                     fontFamily: FONT_INTER,
                     fontSize: 15,
                     color: "rgba(255, 255, 255, 0.75)",
-                    lineHeight: 1.5,
+                    lineHeight: 1.6,
                   }}
                 >
                   We connect performance-driven advertisers with our network of 250,000+ vetted affiliate partners — delivering cost-per-action campaigns that generate real, measurable results with full transparency.
@@ -144,7 +145,7 @@ function HeroSection() {
               <motion.div
                 whileHover={{ y: -4 }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
-                className="relative rounded-xl p-4.5 sm:p-5 flex flex-col items-start gap-2.5 border overflow-hidden cursor-pointer group"
+                className="relative rounded-2xl p-6 sm:p-7 flex flex-col items-start border overflow-hidden cursor-pointer group"
                 style={{
                   background: "linear-gradient(145deg, rgba(12, 28, 62, 0.65) 0%, rgba(6, 16, 38, 0.8) 100%)",
                   borderColor: "rgba(56, 189, 248, 0.22)",
@@ -161,7 +162,7 @@ function HeroSection() {
 
                 {/* Dark Glass Icon Square */}
                 <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center relative transition-all duration-300 group-hover:border-[#2DD4BF]"
+                  className="w-10 h-10 rounded-xl flex items-center justify-center relative mb-4 transition-all duration-300 group-hover:border-[#2DD4BF]"
                   style={{
                     background: "rgba(7, 18, 44, 0.85)",
                     border: "1px solid rgba(255, 255, 255, 0.25)",
@@ -179,11 +180,12 @@ function HeroSection() {
                 </div>
 
                 <div
+                  className="mb-2.5"
                   style={{
                     fontFamily: FONT_INTER,
                     fontSize: 16,
                     fontWeight: 800,
-                    letterSpacing: "0.12em",
+                    letterSpacing: "0.08em",
                     textTransform: "uppercase",
                     color: "#FFFFFF",
                   }}
@@ -196,7 +198,7 @@ function HeroSection() {
                     fontFamily: FONT_INTER,
                     fontSize: 15,
                     color: "rgba(255, 255, 255, 0.75)",
-                    lineHeight: 1.5,
+                    lineHeight: 1.6,
                   }}
                 >
                   That performance marketing experience means nothing if it isn't accompanied by present-day proficiency. We're dedicated to developing and perfecting our network's features daily, so you always have an edge.
@@ -493,10 +495,10 @@ function OurValuesSection() {
               style={{ fontFamily: FONT_INTER }}
             >
               <div>
-                <div className="w-11 h-11 rounded-2xl bg-blue-50 flex items-center justify-center mb-6">
+                <div className="w-11 h-11 rounded-2xl bg-blue-50 flex items-center justify-center mb-4">
                   {val.icon}
                 </div>
-                <h3 style={{ fontSize: 16, fontWeight: 800, color: "#0F172A", marginBottom: 10, fontFamily: FONT_INTER }}>
+                <h3 style={{ fontSize: 16, fontWeight: 800, color: "#0F172A", marginBottom: 10, fontFamily: FONT_INTER }} className="mb-2.5">
                   {val.title}
                 </h3>
                 <p style={{ fontSize: 15, color: "#64748B", lineHeight: 1.65, fontFamily: FONT_INTER }}>
