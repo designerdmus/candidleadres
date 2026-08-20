@@ -100,12 +100,12 @@ export default function PlatformCapabilities() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-bold text-white mb-3 tracking-tight group-hover:text-blue-300 transition-colors">
+                <h3 className="text-[16px] font-bold text-white mb-3 tracking-tight group-hover:text-blue-300 transition-colors">
                   {cap.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-sm leading-relaxed text-slate-300/80 font-normal">
+                <p className="text-[15px] leading-relaxed text-slate-300/80 font-normal">
                   {cap.desc}
                 </p>
               </div>

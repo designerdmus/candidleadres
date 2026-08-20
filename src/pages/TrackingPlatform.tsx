@@ -1032,8 +1032,8 @@ function CapabilitiesSection() {
               <div className="w-12 h-12 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-300" style={{ background: "#EFF6FF", border: "1px solid #BFDBFE" }}>
                 {cap.icon}
               </div>
-              <div style={{ fontSize: 14, fontWeight: 800, color: "#0F172A" }}>{cap.title}</div>
-              <p style={{ fontSize: 12.5, color: "#64748B", lineHeight: 1.65 }}>{cap.desc}</p>
+              <div style={{ fontSize: 16, fontWeight: 800, color: "#0F172A" }}>{cap.title}</div>
+              <p style={{ fontSize: 15, color: "#64748B", lineHeight: 1.65 }}>{cap.desc}</p>
             </motion.div>
           ))}
         </div>
@@ -1092,8 +1092,8 @@ function FeatureCard({ title, desc, icon, delay = 0, direction = "left" }: {
         {icon}
       </div>
       <div>
-        <div style={{ fontSize: 14, fontWeight: 800, color: "white", marginBottom: 6 }}>{title}</div>
-        <p style={{ fontSize: 12.5, color: "rgba(255,255,255,0.55)", lineHeight: 1.65 }}>{desc}</p>
+        <div style={{ fontSize: 16, fontWeight: 800, color: "white", marginBottom: 6 }}>{title}</div>
+        <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", lineHeight: 1.65 }}>{desc}</p>
       </div>
     </motion.div>
   )

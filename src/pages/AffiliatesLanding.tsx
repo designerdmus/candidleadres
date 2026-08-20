@@ -152,7 +152,7 @@ function HeroSection() {
                   }}
                 >
                   <div style={{ fontSize: 16, fontWeight: 800, color: "#FFFFFF", marginBottom: 2 }}>{card.title}</div>
-                  <div style={{ fontSize: 11, color: "rgba(255,255,255,0.6)", fontWeight: 500 }}>{card.sub}</div>
+                  <div style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", fontWeight: 500 }}>{card.sub}</div>
                 </div>
               ))}
             </div>
@@ -192,12 +192,12 @@ function HeroSection() {
                     className="flex items-center justify-between px-4 py-3.5 rounded-2xl border border-slate-100 transition-all cursor-pointer"
                   >
                     <div>
-                      <div style={{ fontSize: 14, fontWeight: 700, color: "#0F172A" }}>{item.title}</div>
-                      <div style={{ fontSize: 11.5, color: "#64748B", marginTop: 2 }}>{item.category}</div>
+                      <div style={{ fontSize: 16, fontWeight: 700, color: "#0F172A" }}>{item.title}</div>
+                      <div style={{ fontSize: 15, color: "#64748B", marginTop: 2 }}>{item.category}</div>
                     </div>
                     <div className="text-right">
-                      <div style={{ fontSize: 14, fontWeight: 800, color: "#0F172A" }}>{item.payout}</div>
-                      <div style={{ fontSize: 11.5, fontWeight: 700, color: "#10B981", marginTop: 2 }}>{item.change}</div>
+                      <div style={{ fontSize: 16, fontWeight: 800, color: "#0F172A" }}>{item.payout}</div>
+                      <div style={{ fontSize: 15, fontWeight: 700, color: "#10B981", marginTop: 2 }}>{item.change}</div>
                     </div>
                   </motion.div>
                 ))}
@@ -292,10 +292,10 @@ function HowItWorksSection() {
               </div>
 
               {/* Title & Description */}
-              <h3 style={{ fontSize: 17, fontWeight: 800, color: "#FFFFFF", marginBottom: 8 }}>
+              <h3 style={{ fontSize: 16, fontWeight: 800, color: "#FFFFFF", marginBottom: 8 }}>
                 {step.title}
               </h3>
-              <p style={{ fontSize: 13.5, color: "rgba(255, 255, 255, 0.65)", lineHeight: 1.65, maxWidth: 240 }}>
+              <p style={{ fontSize: 15, color: "rgba(255, 255, 255, 0.75)", lineHeight: 1.65, maxWidth: 240 }}>
                 {step.desc}
               </p>
             </motion.div>
@@ -386,10 +386,10 @@ function BenefitsSection() {
               <div className="w-12 h-12 rounded-2xl flex items-center justify-center bg-blue-500/20 border border-blue-400/30 text-white font-bold text-xl mb-5">
                 $
               </div>
-              <h3 style={{ fontSize: 24, fontWeight: 800, color: "#FFFFFF", marginBottom: 10 }}>
+              <h3 style={{ fontSize: 16, fontWeight: 800, color: "#FFFFFF", marginBottom: 10 }}>
                 Weekly Payments
               </h3>
-              <p style={{ fontSize: 14, color: "rgba(255,255,255,0.75)", lineHeight: 1.65 }}>
+              <p style={{ fontSize: 15, color: "rgba(255,255,255,0.8)", lineHeight: 1.65 }}>
                 Receive your earnings every week, without fail. We support wire transfers, PayPal, check, ACH, and cryptocurrency — no minimum thresholds, no delays.
               </p>
             </div>
@@ -439,10 +439,10 @@ function BenefitsSection() {
                   <div className="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center mb-5">
                     {item.icon}
                   </div>
-                  <h3 style={{ fontSize: 16.5, fontWeight: 800, color: "#0F172A", marginBottom: 8 }}>
+                  <h3 style={{ fontSize: 16, fontWeight: 800, color: "#0F172A", marginBottom: 8 }}>
                     {item.title}
                   </h3>
-                  <p style={{ fontSize: 13.5, color: "#64748B", lineHeight: 1.65 }}>
+                  <p style={{ fontSize: 15, color: "#64748B", lineHeight: 1.65 }}>
                     {item.desc}
                   </p>
                 </div>
@@ -512,7 +512,7 @@ function ReviewsSection() {
                   {"★".repeat(rev.stars)}
                 </div>
                 {/* Quote Text */}
-                <p style={{ fontSize: 14, color: "#334155", lineHeight: 1.7, marginBottom: 20 }}>
+                <p style={{ fontSize: 15, color: "#334155", lineHeight: 1.7, marginBottom: 20 }}>
                   {rev.text}
                 </p>
               </div>
@@ -523,8 +523,8 @@ function ReviewsSection() {
                   {rev.avatar}
                 </div>
                 <div>
-                  <div style={{ fontSize: 14, fontWeight: 800, color: "#0F172A" }}>{rev.name}</div>
-                  <div style={{ fontSize: 12, color: "#64748B" }}>{rev.role}</div>
+                  <div style={{ fontSize: 16, fontWeight: 800, color: "#0F172A" }}>{rev.name}</div>
+                  <div style={{ fontSize: 15, color: "#64748B" }}>{rev.role}</div>
                 </div>
               </div>
             </motion.div>
@@ -670,10 +670,10 @@ function ResourcesSection() {
                   <Glass3DIcon type={res.tag} />
                 </div>
 
-                <h3 style={{ fontSize: 15.5, fontWeight: 800, color: "#0F172A", marginBottom: 10, lineHeight: 1.35 }}>
+                <h3 style={{ fontSize: 16, fontWeight: 800, color: "#0F172A", marginBottom: 10, lineHeight: 1.35 }}>
                   {res.title}
                 </h3>
-                <p style={{ fontSize: 13, color: "#64748B", lineHeight: 1.6, marginBottom: 20 }}>
+                <p style={{ fontSize: 15, color: "#64748B", lineHeight: 1.6, marginBottom: 20 }}>
                   {res.desc}
                 </p>
               </div>

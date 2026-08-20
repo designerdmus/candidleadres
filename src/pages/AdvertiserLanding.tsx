@@ -172,8 +172,8 @@ function HeroSection() {
                     fontFamily: "'Inter', sans-serif",
                   }}
                 >
-                  <div style={{ fontSize: 12, fontWeight: 800, color: "#FFFFFF", marginBottom: 2 }}>{card.title}</div>
-                  <div style={{ fontSize: 11, color: "rgba(255,255,255,0.6)", fontWeight: 500 }}>{card.sub}</div>
+                  <div style={{ fontSize: 16, fontWeight: 800, color: "#FFFFFF", marginBottom: 2 }}>{card.title}</div>
+                  <div style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", fontWeight: 500 }}>{card.sub}</div>
                 </motion.div>
               ))}
             </div>
@@ -386,7 +386,7 @@ function InfrastructureSection() {
               <div className="flex-shrink-0">{feat.icon}</div>
               <div>
                 <h3 style={{ fontSize: 16, fontWeight: 800, color: "#0F172A", marginBottom: 8 }}>{feat.title}</h3>
-                <p style={{ fontSize: 13, color: "#64748B", lineHeight: 1.65 }}>{feat.desc}</p>
+                <p style={{ fontSize: 15, color: "#64748B", lineHeight: 1.65 }}>{feat.desc}</p>
               </div>
             </motion.div>
           ))}

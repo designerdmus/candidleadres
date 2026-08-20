@@ -118,7 +118,7 @@ function HeroSection() {
                 <div
                   style={{
                     fontFamily: FONT_INTER,
-                    fontSize: 11,
+                    fontSize: 16,
                     fontWeight: 800,
                     letterSpacing: "0.12em",
                     textTransform: "uppercase",
@@ -131,8 +131,8 @@ function HeroSection() {
                 <p
                   style={{
                     fontFamily: FONT_INTER,
-                    fontSize: 12.5,
-                    color: "rgba(255, 255, 255, 0.7)",
+                    fontSize: 15,
+                    color: "rgba(255, 255, 255, 0.75)",
                     lineHeight: 1.5,
                   }}
                 >
@@ -181,7 +181,7 @@ function HeroSection() {
                 <div
                   style={{
                     fontFamily: FONT_INTER,
-                    fontSize: 11,
+                    fontSize: 16,
                     fontWeight: 800,
                     letterSpacing: "0.12em",
                     textTransform: "uppercase",
@@ -194,8 +194,8 @@ function HeroSection() {
                 <p
                   style={{
                     fontFamily: FONT_INTER,
-                    fontSize: 12.5,
-                    color: "rgba(255, 255, 255, 0.7)",
+                    fontSize: 15,
+                    color: "rgba(255, 255, 255, 0.75)",
                     lineHeight: 1.5,
                   }}
                 >
@@ -496,10 +496,10 @@ function OurValuesSection() {
                 <div className="w-11 h-11 rounded-2xl bg-blue-50 flex items-center justify-center mb-6">
                   {val.icon}
                 </div>
-                <h3 style={{ fontSize: 16.5, fontWeight: 800, color: "#0F172A", marginBottom: 10, fontFamily: FONT_INTER }}>
+                <h3 style={{ fontSize: 16, fontWeight: 800, color: "#0F172A", marginBottom: 10, fontFamily: FONT_INTER }}>
                   {val.title}
                 </h3>
-                <p style={{ fontSize: 13.5, color: "#64748B", lineHeight: 1.65, fontFamily: FONT_INTER }}>
+                <p style={{ fontSize: 15, color: "#64748B", lineHeight: 1.65, fontFamily: FONT_INTER }}>
                   {val.desc}
                 </p>
               </div>
